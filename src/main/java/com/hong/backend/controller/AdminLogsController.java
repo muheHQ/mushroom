@@ -18,4 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/admin-logs")
 public class AdminLogsController {
 
+    public void test(){
+        System.out.println();
+    }
+
 }
